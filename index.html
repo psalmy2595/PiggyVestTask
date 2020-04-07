@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PiggyVest | Dashboard</title>
+    <link rel="icon" href="img/piggybank.webp" type="x/icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sub-container">
+            <!-- logo -->
+            <a href="" class="sub-container-anchor"><img src="img/plogo.svg" alt="PiggyLogo"></a>
+              <form method="POST" action="">
+            <div class="form-container">
+                    <!-- form header -->
+                <h3 class="form-header">Create a Secure Account</h3>
+                <p class="form-head">Welcome to the future of Savings & Investments</p>
+
+                <label>Full Name</label>
+                <input type="text" name="name" placeholder="Full Name" required>
+
+                <label>Email</label>
+                <input type="email" name="email" placeholder="Email Address" required>
+
+                <label>Phone</label>
+                <input type="text" name="phone" placeholder="Phone Number" required>
+
+                <label>Password</label>
+                <input type="password" name="password" placeholder="Password" required>
+
+                <label>Referrer Phone or Promo Code (Optional)</label>
+                <input type="text" name="referrer" placeholder="Referrer Phone or Code" required>
+                
+                    <label>How Did You Hear About Us? (Optional)</label>
+                    <select name="selection" id="selection">
+                        <option value="default" selected="selected">Click To Start</option>
+                        <option value="facebook">Facebook</option>
+                        <option value="twitter">Twitter</option>
+                        <option value="instagram">Instagram</option>
+                        <option value="friends">Friend/Family/Coworker Referral</option>
+                        <option value="google">Google search</option>
+                        <option value="googleStore">Google playstore</option>
+                        <option value="blog">Online Blog</option>
+                        <option value="news">Local Newspaper</option>
+                        <option value="events">At an event</option>
+                        <option value="others">Others</option>
+                    </select>
+                    <button class="btn">Create Account</button>
+                </form>
+            </div>
+
+        </div>
+        <a href="index.html" class="footer"><h5>Already have an account? Login</h5></a>
+    </div> 
+</body>
+</html>
